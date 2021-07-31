@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:blue;
+}
+*{
+    margin:0;
+    padding:0;
+}
+section{
+    background-color:rgb(255, 255, 255);
+    height:90vh;
+    margin:40px;
+    border-radius:25px;
+}
+nav{
+    display:flex;
+    background-color:rgb(255, 255, 255);
+    padding:35px;
+    font-family:sans-serif;
+    border-radius:25px;
+    
+}
+nav img{
+    width:150px;
+    height:60px;
+}
+nav ol{
+    display:flex;
+    margin-left:5%;
+    
+}
+nav ol li{
+    list-style-type:none;
+    font-weight:bold;
+ 
+    margin-top:20px;
+    color:rgb(85, 85, 85);
+}
+nav ol li a{
+    text-decoration:none;
+    font-size:20px;
+    margin-left:35px;
+}
+nav a{
+   margin-left:43%;
+   margin-top:19px;
+   font-weight:bold;
+   color:rgb(85,85,85);
+   text-decoration:none
+}
+nav button{
+    margin-left:4%;
+    width:160px;
+    background-color:rgb(252, 144, 20);
+    border-radius:30px;
+    border:none;
+}
+
+.home{
+    color:orange;
+}
+div{
+    margin-left:8%;
+    margin-top:5%;
+}
+div p:nth-child(1){
+    font-size:35px;
+    font-family:sans-serif;
+}
+div h2{
+    font-size:80px;
+    font-family:sans-serif;
+    padding-top:10px;
+    color:rgb(53, 53, 53);
+}
+div p:nth-child(3){
+    font-size:25px;
+    color:rgb(99, 96, 96);
+    padding:30px 0px 20px 0px;
+}
+div button{
+    background-color:rgb(255, 105, 18);
+    width:180px;
+    border-radius:40px;
+    height:70px;
+    border:none;
+    font-size:15px;
+    margin-left:20px;
+    margin-top:30px;
+    font-weight:bolder;
+}
+div button a{
+    text-decoration:none;
+    color:white;
+}
+.bigpicture img{
+    width:900px;
+    height:800px;
+    float:right;
+    margin-top:-600px;
+    margin-right:-20px;
+    border-top-left-radius: 100px;
+}
+
+
+
+
