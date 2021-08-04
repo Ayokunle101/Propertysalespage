@@ -90,6 +90,11 @@ body{
 .profile_card ul li:nth-child(3){
     margin-left:-25px;
 }
-
+@media  only screen and (max-width:500px){
+    body{
+        background-position:top 1000% left 20%,bottom 1000% right 20%;
+    }
+    
+}
 
 
