@@ -1,38 +1,41 @@
 body{
     margin:0;
     padding:0;
-    background:url(profile_cardassets/bg-pattern-top.png) left top no-repeat, url(profile_cardassets/bg-pattern-bottom.png) right bottom no-repeat;
-    background-size:25%;
+    background:url(bg-pattern-top.png) no-repeat, url(bg-pattern-bottom.png) no-repeat;
     height:100vh;
     background-color:hsl(183, 57%, 43%);
-    background-position:top 20px left 10px,bottom -20px ;
-    background-size:40%;
+    background-size:46%;
+    background-position:top -300% left -5%,bottom -300% right -5%;
+   
+    
 }
 *{
   margin:0;
   padding:0;  
 }
 .profile_card{
-    width:300px;
-    height:340px;
+    width:380px;
+    height:400px;
     background-color:white;
-    border-radius:20px;
+    border-radius:15px;
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
 }
 .profile_card img:nth-child(1){
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
     width:100%;
+    height:145px;
 }
 .profile_card img:nth-child(2){
-   margin-top:-50px;
+   margin-top:-60px;
    border:5px solid white;
    border-radius:50%;
-   margin-left:100px;
+   margin-left:140px;
    margin-right:65px;
+
 }
 .profile_card p:first-of-type{
     text-align:center;
@@ -53,14 +56,14 @@ body{
 }
 .profile_card hr{
     width:100%;
-    margin-top:20px;
+    margin-top:50px;
    
 }
 .profile_card ol{
     list-style-type:none;
     display:flex;
     justify-content:space-around;
-    padding:20px;
+    padding:30px;
 }
 .profile_card ol li{
     font-weight:bolder;
@@ -71,7 +74,7 @@ body{
     list-style-type:none;
     display:flex;
     justify-content:space-around;
-    margin-top:-15px;
+    margin-top:-20px;
     
 }
 .profile_card ul li{
@@ -87,5 +90,6 @@ body{
 .profile_card ul li:nth-child(3){
     margin-left:-25px;
 }
+
 
 
